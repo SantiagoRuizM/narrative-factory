@@ -1,0 +1,36 @@
+\documentclass{book}
+
+% Paquetes estándar
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=1in]{geometry} % Márgenes de 1 pulgada, ajustables
+\usepackage{fancyhdr} % Para personalizar encabezados y pies de página
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref} % Para enlaces interactivos en el PDF
+
+% Información del libro
+\title{
+    \textbf{Ecos Cuánticos: Principios y Paralelismos en Nuestros Sistemas} \\
+    \large Una expedición al corazón de la realidad y la complejidad
+}
+\author{} % Autor no especificado, se deja en blanco
+\date{} % Elimina la fecha de la portada
+
+\begin{document}
+
+% Portada
+\maketitle
+
+% Tabla de contenidos
+\cleardoublepage % Asegura que la tabla de contenidos comience en una página par (derecha)
+\tableofcontents
+\cleardoublepage % Asegura que el primer capítulo comience en una página par (derecha)
+
+% Inclusión de capítulos
+% Se asume que los archivos de capítulo están en una subcarpeta llamada 'chapters'
+\include{chapters/chapter01}
+\include{chapters/chapter02}
+\include{chapters/chapter03}
+\include{chapters/chapter04}
+\include{chapters/chapter05}
+
+\end{document}
